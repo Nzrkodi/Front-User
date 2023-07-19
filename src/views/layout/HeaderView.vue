@@ -6,36 +6,38 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home-alt nav__icon'></i>
-                            <span class="nav__name">Home</span>
+                        <a href="" class="nav__link active-link">
+                            <router-link role="button" :to="{ name: 'home' }" class="nav__link active-link">
+                                <i class="nav__icon"><font-awesome-icon :icon="['fas', 'house']" /></i>
+                                <span class="nav__name">Home</span>
+                            </router-link>
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="order.html" class="nav__link">
-                            <i class='bx bx-cart-add nav__icon'></i>
+                        <router-link :to="{ name: 'order' }" class="nav__link">
+                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'cart-shopping']" /></i>
                             <span class="nav__name">Order</span>
-                        </a>
+                        </router-link>
                     </li>
 
                     <li class="nav__item">
                         <a href="riwayat.html" class="nav__link">
-                            <i class='bx bx-notepad nav__icon'></i>
+                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'clipboard']" /></i>
                             <span class="nav__name">Riwayat</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="about.html" class="nav__link">
-                            <i class='bx bx-id-card nav__icon'></i>
+                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'house']" /></i>
                             <span class="nav__name">About</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#logout" class="nav__link" data-toggle="modal" data-target="#exampleModal">
-                            <i class='bx bx-log-out nav__icon'></i>
+                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'right-from-bracket']" /></i>
                             <span class="nav__name">Logout</span>
                         </a>
                     </li>
