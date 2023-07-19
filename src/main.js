@@ -7,6 +7,9 @@ import './assets/css/styles.css'
 import './assets/js/main.js'
 import 'bootstrap/dist/css/bootstrap.css'
 
+import 'izitoast/dist/css/iziToast.css'
+import 'izitoast/dist/js/iziToast.js'
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
