@@ -151,9 +151,9 @@ main{
     float: right;
   }
 
-  #title{
+  /* #title{
     font-size: 10pt;
-  }
+  } */
 
   #title h2{
     margin-top: 12px;
@@ -183,14 +183,14 @@ main{
   font-size: var(--tiny-font-size);
   margin-right: 1.5rem;
   margin-top: -0.5rem;
-  /* display: none;*/ /* Minimalist design, hidden labels */
+  /* display: none;  */
 }
 
-.nav__icon {
+/* .nav__icon {
   font-size: 1.5rem;
   margin-top: 0.5rem;
   margin-right: 1.5rem;
-}
+} */
 
 /*Active link*/
 .active-link {
@@ -244,7 +244,7 @@ main{
     padding: 7rem 0 2rem;
   }
   .nav {
-    height: calc(var(--header-height) + 1.5rem); /* 4.5rem */
+    height: calc(var(--header-height) + 1.5rem);
   }
   .nav__img {
     display: none;
@@ -254,13 +254,11 @@ main{
   }
   .nav__name {
     font-size: var(--normal-font-size);
-    /* display: block; */ /* Minimalist design, visible labels */
   }
   .nav__link:hover {
     color: var(--first-color);
   }
 
-  /* First design, remove if you choose the minimalist design */
   .active-link::before {
     position: absolute;
     bottom: -.75rem;
@@ -283,13 +281,8 @@ main{
     font-size: 15pt;
     line-height: 1pt;
   }
-  /* Minimalist design */
-  /* .active-link::before{
-      bottom: -.75rem;
-  } */
 }
 
-/* For large devices */
 @media screen and (min-width: 1024px) {
   .container {
     margin-left: auto;
