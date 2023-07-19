@@ -8,23 +8,24 @@
                         <div class="row">
                             <div class="col-md-6 col-6">
                                 <div id="title">
-                                    <h2><b>HALAMAN DASBOARD</b></h2>
+                                    <h2><b>STATUS PENCUCIAN</b></h2>
                                     <p class="mt-3">Dashboar / home</p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-6">
                                 <a href="" class="btn btn-primary" id="button-order">Order Sekrang</a>
                             </div>
-                            <div class="row justify-content-center mb-5">
+                            <div class="d-flex justify-content-center align-items-center mb-5">
                                 <div class="col-md-6 col-12">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="icon">
                                                 <div class="bulat">
-                                                    <font-awesome-icon :icon="['fas', 'spinner']" />
+                                                    <font-awesome-icon :icon="['fas', 'clock-rotate-left']"
+                                                        class="text-warning" />
                                                 </div>
                                             </div>
-                                            <div class="title">Judul Card</div>
+                                            <div class="title">Sedang dicuci</div>
                                             <div class="content">
                                                 Ini adalah konten dari card menarik dengan Font Awesome.
                                             </div>
@@ -33,7 +34,7 @@
                                 </div>
                             </div>
                             <div id="title" class="mb-2">
-                                <h2><b>HALAMAN DATA LAUNDRY</b></h2>
+                                <h2><b>DATA MENU</b></h2>
                                 <p class="mt-3">Click pada bagian dibawah ini</p>
                             </div>
                             <div class="col-md-4 col-4">
@@ -43,7 +44,7 @@
                                             <div class="ico">
                                                 <font-awesome-icon :icon="['fas', 'cart-shopping']" /><br>
                                             </div>
-                                            <span>order</span>
+                                            <span>Order</span>
                                         </div>
                                     </div>
                                 </a>
@@ -55,7 +56,7 @@
                                             <div class="ico">
                                                 <font-awesome-icon :icon="['fas', 'file-lines']" /><br>
                                             </div>
-                                            <span>order</span>
+                                            <span>Cucian</span>
                                         </div>
                                     </div>
                                 </a>
@@ -67,7 +68,7 @@
                                             <div class="ico">
                                                 <font-awesome-icon :icon="['fas', 'user-pen']" /><br>
                                             </div>
-                                            <span>order</span>
+                                            <span>User</span>
                                         </div>
                                     </div>
                                 </a>
@@ -84,7 +85,7 @@
                                             <div class="d-flex flex-row">
                                                 <div class="align-self-center">
                                                     <i class="fas fa-pencil-alt text-info fa-2x me-4">
-                                                        <font-awesome-icon :icon="['fas', 'cart-shopping']" />
+                                                        <font-awesome-icon :icon="['fas', 'cash-register']" />
                                                     </i>
                                                 </div>
                                                 <div class="ml-2">
@@ -93,7 +94,7 @@
                                                 </div>
                                             </div>
                                             <div class="align-self-center">
-                                                <h2 class="h3 mb-0 edit">18,000</h2>
+                                                <h2 class="h3 mb-0 edit">Rp.28,000</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -105,7 +106,9 @@
                                         <div class="d-flex justify-content-between p-md-1">
                                             <div class="d-flex flex-row">
                                                 <div class="align-self-center">
-                                                    <i class="fas fa-pencil-alt text-info fa-2x me-4"></i>
+                                                    <i class="fas fa-pencil-alt text-info fa-2x me-4">
+                                                        <font-awesome-icon :icon="['fas', 'cash-register']" />
+                                                    </i>
                                                 </div>
                                                 <div class="ml-2">
                                                     <h4 class="edit">Total Posts</h4>
@@ -113,7 +116,29 @@
                                                 </div>
                                             </div>
                                             <div class="align-self-center">
-                                                <h2 class="h3 mb-0 edit">Rp.18000</h2>
+                                                <h2 class="h3 mb-0 edit">Rp.28,000</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-md-12">
+                                <div class="cardd">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between p-md-1">
+                                            <div class="d-flex flex-row">
+                                                <div class="align-self-center">
+                                                    <i class="fas fa-pencil-alt text-info fa-2x me-4">
+                                                        <font-awesome-icon :icon="['fas', 'cash-register']" />
+                                                    </i>
+                                                </div>
+                                                <div class="ml-2">
+                                                    <h4 class="edit">Total Posts</h4>
+                                                    <p class="mb-0 edit">Monthly blog posts</p>
+                                                </div>
+                                            </div>
+                                            <div class="align-self-center">
+                                                <h2 class="h3 mb-0 edit">Rp.28,000</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -131,10 +156,6 @@
     <Footer />
 </template>
 <style scoped>
-body {
-    background-color: #f9f9f9;
-}
-
 .card {
     border: none;
     border-radius: 10px;

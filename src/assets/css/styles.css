@@ -53,19 +53,6 @@ body {
   color: var(--text-color);
 }
 
-@keyframes rotateIcon {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.bulat {
-  animation: rotateIcon 2s linear infinite; /* Ubah durasi animasi jika diinginkan */
-}
-
 ul {
   list-style: none;
 }
@@ -200,7 +187,7 @@ main{
 }
 
 .nav__icon {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-top: 0.5rem;
   margin-right: 1.5rem;
 }
