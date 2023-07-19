@@ -7,35 +7,30 @@
                 <ul class="nav__list">
                     <li class="nav__item">
                         <router-link role="button" :to="{ name: 'home' }" class="nav__link active-link">
-                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'house']" /></i>
                             <span class="nav__name">Home</span>
                         </router-link>
                     </li>
 
                     <li class="nav__item">
                         <router-link :to="{ name: 'order' }" class="nav__link">
-                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'cart-shopping']" /></i>
                             <span class="nav__name">Order</span>
                         </router-link>
                     </li>
 
                     <li class="nav__item">
                         <a href="riwayat.html" class="nav__link">
-                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'clipboard']" /></i>
                             <span class="nav__name">Riwayat</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="about.html" class="nav__link">
-                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'house']" /></i>
                             <span class="nav__name">About</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#logout" class="nav__link" data-toggle="modal" data-target="#exampleModal">
-                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'right-from-bracket']" /></i>
                             <span class="nav__name">Logout</span>
                         </a>
                     </li>
