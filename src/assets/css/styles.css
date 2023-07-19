@@ -143,6 +143,10 @@ main{
     width: 100%;
   }
 
+  .nav__name {
+    display: none;
+  }
+
   .edit{
     font-size: 12pt;
   }
