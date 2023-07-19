@@ -6,12 +6,10 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="" class="nav__link active-link">
-                            <router-link role="button" :to="{ name: 'home' }" class="nav__link active-link">
-                                <i class="nav__icon"><font-awesome-icon :icon="['fas', 'house']" /></i>
-                                <span class="nav__name">Home</span>
-                            </router-link>
-                        </a>
+                        <router-link role="button" :to="{ name: 'home' }" class="nav__link active-link">
+                            <i class="nav__icon"><font-awesome-icon :icon="['fas', 'house']" /></i>
+                            <span class="nav__name">Home</span>
+                        </router-link>
                     </li>
 
                     <li class="nav__item">

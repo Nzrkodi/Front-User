@@ -53,6 +53,19 @@ body {
   color: var(--text-color);
 }
 
+@keyframes rotateIcon {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bulat {
+  animation: rotateIcon 2s linear infinite; /* Ubah durasi animasi jika diinginkan */
+}
+
 ul {
   list-style: none;
 }
